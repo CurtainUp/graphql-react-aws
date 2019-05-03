@@ -1,0 +1,14 @@
+{
+    "elyse": {
+        "awscloudformation": {
+            "AuthRoleName": "awsgraphql-react-20190502160641-authRole",
+            "UnauthRoleArn": "arn:aws:iam::885018283691:role/awsgraphql-react-20190502160641-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::885018283691:role/awsgraphql-react-20190502160641-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "awsgraphql-react-20190502160641-deployment",
+            "UnauthRoleName": "awsgraphql-react-20190502160641-unauthRole",
+            "StackName": "awsgraphql-react-20190502160641",
+            "StackId": "arn:aws:cloudformation:us-east-1:885018283691:stack/awsgraphql-react-20190502160641/2f148070-6d1e-11e9-a4ef-0e7698e0f2e8"
+        }
+    }
+}
