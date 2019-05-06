@@ -1,6 +1,7 @@
-type Post @model {
+type Receipt @model {
     id: ID!
-    title: String!
-    body:String!
-    createdAt:String!
+    userId: Float!
+    userAmount: Float!
+    matchAmount: Float
+    nonProfitName:String!
 }

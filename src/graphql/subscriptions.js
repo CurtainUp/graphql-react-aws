@@ -1,30 +1,33 @@
 // eslint-disable
 // this is an auto generated file. This will be overwritten
 
-export const onCreatePost = `subscription OnCreatePost {
-  onCreatePost {
+export const onCreateReceipt = `subscription OnCreateReceipt {
+  onCreateReceipt {
     id
-    title
-    body
-    createdAt
+    userId
+    userAmount
+    matchAmount
+    nonProfitName
   }
 }
 `;
-export const onUpdatePost = `subscription OnUpdatePost {
-  onUpdatePost {
+export const onUpdateReceipt = `subscription OnUpdateReceipt {
+  onUpdateReceipt {
     id
-    title
-    body
-    createdAt
+    userId
+    userAmount
+    matchAmount
+    nonProfitName
   }
 }
 `;
-export const onDeletePost = `subscription OnDeletePost {
-  onDeletePost {
+export const onDeleteReceipt = `subscription OnDeleteReceipt {
+  onDeleteReceipt {
     id
-    title
-    body
-    createdAt
+    userId
+    userAmount
+    matchAmount
+    nonProfitName
   }
 }
 `;

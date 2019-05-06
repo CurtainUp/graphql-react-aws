@@ -7,7 +7,7 @@ import AWSAppSyncClient, { AUTH_TYPE } from 'aws-appsync';
 import aws_config from './aws-exports';
 import { ApolloProvider } from 'react-apollo';
 
-// import { listPosts } from './graphql/queries';
+// import { listReceipts } from './graphql/queries';
 
 const client = new AWSAppSyncClient({
     url: aws_config.aws_appsync_graphqlEndpoint,
@@ -21,7 +21,7 @@ const client = new AWSAppSyncClient({
 // `query` is used to fetch the data from the graphql endpoint. 
 
 // client.query({
-//     query: gql(listPosts)
+//     query: gql(listReceipts)
 // }).then(({ data }) => {
 //     console.log(data);
 // })

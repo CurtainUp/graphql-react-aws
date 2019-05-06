@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import CreatePost from './createPost';
-import DisplayPosts from './displayPosts';
+import CreateReceipt from './createReceipt';
+import DisplayReceipts from './displayReceipts';
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <CreatePost />
-        <DisplayPosts />
+        <CreateReceipt />
+        <DisplayReceipts />
       </div>
     );
   }

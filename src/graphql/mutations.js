@@ -1,30 +1,33 @@
 // eslint-disable
 // this is an auto generated file. This will be overwritten
 
-export const createPost = `mutation CreatePost($input: CreatePostInput!) {
-  createPost(input: $input) {
+export const createReceipt = `mutation CreateReceipt($input: CreateReceiptInput!) {
+  createReceipt(input: $input) {
     id
-    title
-    body
-    createdAt
+    userId
+    userAmount
+    matchAmount
+    nonProfitName
   }
 }
 `;
-export const updatePost = `mutation UpdatePost($input: UpdatePostInput!) {
-  updatePost(input: $input) {
+export const updateReceipt = `mutation UpdateReceipt($input: UpdateReceiptInput!) {
+  updateReceipt(input: $input) {
     id
-    title
-    body
-    createdAt
+    userId
+    userAmount
+    matchAmount
+    nonProfitName
   }
 }
 `;
-export const deletePost = `mutation DeletePost($input: DeletePostInput!) {
-  deletePost(input: $input) {
+export const deleteReceipt = `mutation DeleteReceipt($input: DeleteReceiptInput!) {
+  deleteReceipt(input: $input) {
     id
-    title
-    body
-    createdAt
+    userId
+    userAmount
+    matchAmount
+    nonProfitName
   }
 }
 `;
